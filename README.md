@@ -22,23 +22,6 @@ http://query.yahooapis.com/v1/public/yql?q=SELECT%20*%20FROM%20geo.places%20WHER
 To get weather data :
 http://query.yahooapis.com/v1/public/yql?q=SELECT%20*%20FROM%20weather.forecast%20WHERE%20woeid%3D%22'YOURWOEID'%22%20and%20u%3D%22'YOURTEMPDEVISECorF'%22&format=json&callback='
 
+Enjoy ! :boom::boom::boom:
 ##TODO
 - [ ] Network error msg bug need a little fix.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
