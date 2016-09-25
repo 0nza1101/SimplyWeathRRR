@@ -13,6 +13,8 @@ It's add :
 * Show the 5-day forecast.
 * Also display the humidity in % and the visibility (miles and kilometers).
 
+Since the Yahoo Weather API stopped stopped working see [this](https://www.igorkromin.net/index.php/2016/03/27/yahoo-effectively-shut-down-its-weather-api-by-forcing-oauth-10-and-crippling-it/)
+
 ##TODO
 - [ ] Network error msg bug need a little fix.
 
