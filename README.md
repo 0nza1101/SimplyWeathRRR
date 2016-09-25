@@ -13,7 +13,13 @@ It's add :
 * Show the 5-day forecast.
 * Also display the humidity in % and the visibility (miles and kilometers).
 
-Since the Yahoo Weather API stopped stopped working see [this](https://www.igorkromin.net/index.php/2016/03/27/yahoo-effectively-shut-down-its-weather-api-by-forcing-oauth-10-and-crippling-it/)
+Since the Yahoo Weather API stopped stopped working for details see [this](https://www.igorkromin.net/index.php/2016/03/27/yahoo-effectively-shut-down-its-weather-api-by-forcing-oauth-10-and-crippling-it/)
+so I have found a fix to bypass this restriction.
+
+To get location :
+* http://query.yahooapis.com/v1/public/yql?q=SELECT%20*%20FROM%20geo.places%20WHERE%20text%3D%22('YOUR LAT+'%2C'YOUR LONG')%22%20limit%201&format=json&callback='
+To get weather data :
+* http://query.yahooapis.com/v1/public/yql?q=SELECT%20*%20FROM%20weather.forecast%20WHERE%20woeid%3D%22'YOUR WOEID'%22%20and%20u%3D%22'YOURTEMPDEVISE C or F'%22&format=json&callback='
 
 ##TODO
 - [ ] Network error msg bug need a little fix.
