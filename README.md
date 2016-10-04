@@ -13,7 +13,7 @@ It's add :
 * Show the 5-day forecast.
 * Also display the humidity in % and the visibility (miles and kilometers).
 
-Since the Yahoo Weather API stopped stopped working for details see [this](https://www.igorkromin.net/index.php/2016/03/27/yahoo-effectively-shut-down-its-weather-api-by-forcing-oauth-10-and-crippling-it/)
+Since the Yahoo Weather API stopped working for details see [this](https://www.igorkromin.net/index.php/2016/03/27/yahoo-effectively-shut-down-its-weather-api-by-forcing-oauth-10-and-crippling-it/)
 so I have found a fix to bypass this restriction.
 
 To get location :
