@@ -1,4 +1,4 @@
-c# allows to add DEPLOYMENTFOLDERS and links to the V-Play library and QtCreator auto-completion
+# allows to add DEPLOYMENTFOLDERS and links to the V-Play library and QtCreator auto-completion
 CONFIG += v-play
 
 QT += location network
@@ -35,15 +35,4 @@ ios {
     QMAKE_INFO_PLIST = ios/Project-Info.plist
     OTHER_FILES += $$QMAKE_INFO_PLIST
 }
-
-DISTFILES += \
-    android/gradle/wrapper/gradle-wrapper.jar \
-    android/gradlew \
-    android/res/values/libs.xml \
-    android/build.gradle \
-    android/gradle/wrapper/gradle-wrapper.properties \
-    android/gradlew.bat \
-    qml\config.json
-
-HEADERS +=
 
